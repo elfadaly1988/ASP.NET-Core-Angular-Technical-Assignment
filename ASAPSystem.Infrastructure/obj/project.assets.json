@@ -24,20 +24,6 @@
         "runtime": {
           "bin/placeholder/ASAPSystem.Domain.dll": {}
         }
-      },
-      "ASAPSystem.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "ASAPSystem.Application": "1.0.0",
-          "ASAPSystem.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ASAPSystem.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ASAPSystem.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -51,18 +37,12 @@
       "type": "project",
       "path": "../ASAPSystem.Domain/ASAPSystem.Domain.csproj",
       "msbuildProject": "../ASAPSystem.Domain/ASAPSystem.Domain.csproj"
-    },
-    "ASAPSystem.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../ASAPSystem.Infrastructure/ASAPSystem.Infrastructure.csproj",
-      "msbuildProject": "../ASAPSystem.Infrastructure/ASAPSystem.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "ASAPSystem.Application >= 1.0.0",
-      "ASAPSystem.Domain >= 1.0.0",
-      "ASAPSystem.Infrastructure >= 1.0.0"
+      "ASAPSystem.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -71,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Assigment\\ASAP-Task\\ASAPSystem.api\\ASAPSystem.api.csproj",
-      "projectName": "ASAPSystem.api",
-      "projectPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.api\\ASAPSystem.api.csproj",
+      "projectUniqueName": "D:\\Assigment\\ASAP-Task\\ASAPSystem.Infrastructure\\ASAPSystem.Infrastructure.csproj",
+      "projectName": "ASAPSystem.Infrastructure",
+      "projectPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.Infrastructure\\ASAPSystem.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\ElFadaly\\.nuget\\packages\\",
-      "outputPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.api\\obj\\",
+      "outputPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ElFadaly\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,9 +77,6 @@
             },
             "D:\\Assigment\\ASAP-Task\\ASAPSystem.Domain\\ASAPSystem.Domain.csproj": {
               "projectPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.Domain\\ASAPSystem.Domain.csproj"
-            },
-            "D:\\Assigment\\ASAP-Task\\ASAPSystem.Infrastructure\\ASAPSystem.Infrastructure.csproj": {
-              "projectPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.Infrastructure\\ASAPSystem.Infrastructure.csproj"
             }
           }
         }

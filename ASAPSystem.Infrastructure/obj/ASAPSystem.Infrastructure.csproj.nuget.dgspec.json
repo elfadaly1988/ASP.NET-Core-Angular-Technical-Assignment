@@ -1,68 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Assigment\\ASAP-Task\\ASAPSystem.api\\ASAPSystem.api.csproj": {}
+    "D:\\Assigment\\ASAP-Task\\ASAPSystem.Infrastructure\\ASAPSystem.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Assigment\\ASAP-Task\\ASAPSystem.api\\ASAPSystem.api.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Assigment\\ASAP-Task\\ASAPSystem.api\\ASAPSystem.api.csproj",
-        "projectName": "ASAPSystem.api",
-        "projectPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.api\\ASAPSystem.api.csproj",
-        "packagesPath": "C:\\Users\\ElFadaly\\.nuget\\packages\\",
-        "outputPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.api\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\ElFadaly\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net9.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
-            "projectReferences": {
-              "D:\\Assigment\\ASAP-Task\\ASAPSystem.Application\\ASAPSystem.Application.csproj": {
-                "projectPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.Application\\ASAPSystem.Application.csproj"
-              },
-              "D:\\Assigment\\ASAP-Task\\ASAPSystem.Domain\\ASAPSystem.Domain.csproj": {
-                "projectPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.Domain\\ASAPSystem.Domain.csproj"
-              },
-              "D:\\Assigment\\ASAP-Task\\ASAPSystem.Infrastructure\\ASAPSystem.Infrastructure.csproj": {
-                "projectPath": "D:\\Assigment\\ASAP-Task\\ASAPSystem.Infrastructure\\ASAPSystem.Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "D:\\Assigment\\ASAP-Task\\ASAPSystem.Application\\ASAPSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
